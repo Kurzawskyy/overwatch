@@ -5,7 +5,7 @@ body {
     width: 1000px;
     margin: 20px auto auto;
 }
-#top-title {
+.top-title {
     color: white;
     font-size: 38px;
     letter-spacing: 2px;
@@ -21,7 +21,7 @@ nav {
     padding: 10px;
        
 }
-#OW {
+.OW {
     background-color:orange;
     font-size: 20px;
     opacity: 0.6;
@@ -59,7 +59,7 @@ aside {
     cursor: pointer;
     transition: 2s;
 }
-#article {
+.article {
     float: left;
     width: 670px;
     padding: 20px;
@@ -70,13 +70,13 @@ aside {
     text-align: center;
     height: 300px;
 }
-#co {
+.co {
     font-size: 29px;
     border-bottom: 3px dotted black;
     padding: 15px;
     font-weight: 900;
 }
-#na {
+.na {
     font-size: 25px;
     padding: 10px;
 }
@@ -95,7 +95,7 @@ footer {
     margin-right: 10px;
     border-right: 3px dotted gray;
     padding: 10px;
-    transition: 4s;
+    transition: color 1.50s ease;
     color: white;
 }
 .option:hover {
@@ -103,7 +103,6 @@ footer {
     color: black;
     border-right: 3px dotted black;
     cursor: pointer;
-    transition: 1s;
 }
 .description {
     width: 1000px;
@@ -141,4 +140,7 @@ footer {
 }
 .with-matgin {
     margin-left: 75px;
+}
+a {
+    color: white;
 }
