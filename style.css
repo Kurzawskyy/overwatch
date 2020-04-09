@@ -1,165 +1,115 @@
-body
-{
+body {
     background-color: rgb(114, 113, 113);
-
 }
-#container
-{
+.container {
     width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-
+    margin: 20px auto auto;
 }
-
-#logo
-{
+.top-title {
     color: white;
     font-size: 38px;
     letter-spacing: 2px;
     padding: 10px;
     text-align: center;
-    font-weight: 900;
-    
+    font-weight: 900;      
 }
-
-#menuT
-{
-    margin-top: 20px;
+nav {
+    display: flex;
     background-color: black;
     color: white;
     font-size: 20px;
-    padding: 15px;
-    margin-bottom: 10px;
+    padding: 10px;
+       
 }
-
-#OW
-{
+.OW {
     background-color:orange;
     font-size: 20px;
     opacity: 0.6;
-
-}
-
-#tytul
-{
     text-align: center;
-    font-size: 30px;
-    padding: 10px;
+    font-size: 20px;
+}
+.h-index {
     border-bottom: 3px dotted black;
-    letter-spacing: 2px;
+    font-size: 30px;
+
 }
-
-
-#wyjasnienie
-{
+.explanation {
     text-align: justify;
-
-
 }
-
-
-#menuL
-{
+aside {
   float: left; 
-  margin-top: 10px;
+  margin-top: 5px;
   text-align: center; 
-  height: 300px;
-  
-
+  height: 340px;
+  background-color: black;
 }
-
-.optionML
-{
+.option-m-l {
     min-width: 280px;  
     border-bottom: 3px dotted gray;
     background-color: black;
     color: white;
-    min-height: 53px;
+    min-height: 52px;
     padding-top: 30px;
-
+    transition: 4s;
 }
-
-.optionML:hover
-{
+.option-m-l:hover {
     background-color: white;
     color: black;
     border-bottom: 3px dotted black;
     cursor: pointer;
-
+    transition: 2s;
 }
-
-#article
-{
+.article {
     float: left;
     width: 670px;
     padding: 20px;
     background-color: orange;
     opacity: 0.6;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
     text-align: center;
     height: 300px;
 }
-
-#co
-{
+.co {
     font-size: 29px;
     border-bottom: 3px dotted black;
     padding: 15px;
     font-weight: 900;
-
 }
-
-#na
-{
+.na {
     font-size: 25px;
     padding: 10px;
 }
-
-#footer
-{
+footer {
     clear: both;
     background-color: black;
     color: white;
     font-size: 15px;
     padding: 10px;
     text-align: center;
-    
-
 }
-
-
-.option
-{
+.option {
     float: left;
     min-width: 50px;
     margin-left: 10px;
     margin-right: 10px;
     border-right: 3px dotted gray;
     padding: 10px;
-
+    transition: color 1.50s ease;
+    color: white;
 }
-
-.option:hover
-{
+.option:hover {
     background-color: white;
     color: black;
     border-right: 3px dotted black;
     cursor: pointer;
-
 }
-
-.descripe
-{
+.description {
     width: 1000px;
     margin-top: 10px;
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px;  
 }
-
-.imie
-{
+.name {
     width: 980px;
     height: 40px;
     background-color: black;
@@ -169,18 +119,15 @@ body
     text-align: center;
     font-size: 30px;
     padding: 10px;
+    clear: both;
 }
-
-.obraz
-{
+.portrait {
     float: left;
     height: 310px;
     width: 180px;
     border: 2px dotted whitesmoke;
 }
-
-.przypis
-{
+.note {
     float: left;
     width: 782px;
     padding: 10px;
@@ -191,21 +138,9 @@ body
     border: 2px dotted whitesmoke;
     margin-left: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.with-matgin {
+    margin-left: 75px;
+}
+a {
+    color: white;
+}
